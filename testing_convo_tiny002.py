@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import os
 
 # ---------------- CONFIG ----------------
-MODEL_PATH = r"D:\book college\semester 5\annpp001\gg\convnext_tiny_best.pth"
-IMAGE_PATH = r"D:\book college\semester 5\annpp001\Cattle-Buffalo-breeds.v1i.folder\valid\Murrah\Murrah_17_jpg.rf.68f7cfc8fb842d70e6747c1c1bf32fbd.jpg"
+MODEL_PATH = r"C:\Users\shash_8gna92j\OneDrive\Desktop\project\cattle breed detection\gg\convnext_tiny_best.pth"
+IMAGE_PATH = r"C:\Users\shash_8gna92j\OneDrive\Desktop\project\cattle breed detection\Cattle-Buffalo-breeds.v1i.folder\valid\Murrah\Murrah_17_jpg.rf.68f7cfc8fb842d70e6747c1c1bf32fbd.jpg"
 SAVE_DIR = r"C:\Users\shash\Downloads"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # ----------------------------------------
